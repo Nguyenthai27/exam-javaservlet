@@ -14,7 +14,7 @@ public class EmployeeServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        String full_name = request.getParameter("fullname");
+        String fullname = request.getParameter("fullname");
         String birthday = request.getParameter("birthday");
         String address = request.getParameter("address");
         String position = request.getParameter("position");
