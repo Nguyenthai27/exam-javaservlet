@@ -1,6 +1,6 @@
 package com.example.examjavaservlet.util;
 
-import com.example.examjavaservlet.dao.impl.EmployeeDAOImpl;
+import com.example.examjavaservlet.dao.EmployeeDAO;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
